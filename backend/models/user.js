@@ -29,7 +29,7 @@ const userSchema = mongoose.Schema({
     type: Number,
   },
 });
-
+mongoose.set('useCreateIndex', true);
 const User = mongoose.model('User', userSchema);
 
 module.exports = { User };

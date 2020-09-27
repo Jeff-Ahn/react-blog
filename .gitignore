@@ -1,5 +1,8 @@
+# backend
 /backend/node_modules
 /backend/build
+
+/backend/dev.js
 
 /backend/.DB_Store
 
